@@ -1,0 +1,19 @@
+{
+  "name": "javascript-elders",
+  "version": "1.0.0",
+  "description": "Exploring the JavaScript's elder functions named - apply, call and bind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Apply",
+    "Call",
+    "Bind"
+  ],
+  "author": "Zaki Mohammed",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
