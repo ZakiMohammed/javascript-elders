@@ -1,24 +1,20 @@
-const Circle = require("./circle");
+// theFunction
+function calculateTotal(gst, discount) {
+    const gstAmount = this.amount * (gst / 100);
+    return +(this.amount + gstAmount - discount).toFixed(2);
+}
 
-// pizza nerd
-
-const pizza = { radius: 4 };
+// theObject
+const bill = { amount: 112 };
 
 // call
-const fullPizza = Circle.prototype.area.call(pizza);
-const slice = Circle.prototype.areaOfSector.call(pizza, 45);
+// const total = calculateTotal.call(bill, 18, 15);
 
 // apply
-// const fullPizza = Circle.prototype.area.apply(pizza);
-// const slice = Circle.prototype.areaOfSector.apply(pizza, [45]);
+// const total = calculateTotal.apply(bill, [18, 15]);
 
 // bind
-// const area = Circle.prototype.area.bind(pizza);
-// const areaOfSlice = Circle.prototype.areaOfSector.bind(pizza);
+const calculateTotalReloaded = calculateTotal.bind(bill);
+const total = calculateTotalReloaded(18, 15);
 
-// const fullPizza = area();
-// const slice = areaOfSlice(45);
-
-// print
-console.log(`Full Pizza: ${fullPizza.toFixed(2)} square inch`)
-console.log(`Slice: ${slice.toFixed(2)} square inch`)
+console.log('Total:', total);
