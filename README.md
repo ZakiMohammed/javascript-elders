@@ -1,6 +1,6 @@
-# The JavaScript Elders
+# JavaScript Elders - Call, Apply, Bind
 
-Exploring the JavaScript's elder functions named - apply, call and bind.
+Exploring the JavaScript's elder functions named - call, apply and bind.
 
 Link: https://codeomelet.com/posts/javascript-elders
 
