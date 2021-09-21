@@ -1,7 +1,7 @@
 // theFunction
-function calculateTotal(gst, discount) {
-    const gstAmount = this.amount * (gst / 100);
-    return +(this.amount + gstAmount - discount).toFixed(2);
+function calculateTotal(tax, discount) {
+    const taxAmount = this.amount * (tax / 100);
+    return +(this.amount + taxAmount - discount).toFixed(2);
 }
 
 // theObject

@@ -10,6 +10,7 @@ For any given function:
 ```
 function theFunction(argument1, argument2, ..., argumentN) {
     // usage of this.property1, this.property2, ..., this.propertyN
+    // usage of param1, param2, ..., paramN
 }
 ```
 
