@@ -2,7 +2,7 @@
 
 Exploring the JavaScript's elder functions named - call, apply and bind.
 
-Link: https://codeomelet.com/posts/javascript-elders
+Link: https://codeomelet.com/posts/javascript-elders-call-apply-bind
 
 ---
 

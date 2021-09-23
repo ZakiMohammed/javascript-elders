@@ -20,5 +20,8 @@ const slice = Circle.prototype.areaOfSector.call(pizza, 45);
 // const slice = areaOfSlice(45);
 
 // print
-console.log(`Full Pizza: ${fullPizza.toFixed(2)} square inch`)
-console.log(`Slice: ${slice.toFixed(2)} square inch`)
+console.log(`Full Pizza: ${fullPizza.toFixed(2)}`)
+console.log(`Slice: ${slice.toFixed(2)}`)
+
+// Full Pizza: 50.27
+// Slice: 6.28
